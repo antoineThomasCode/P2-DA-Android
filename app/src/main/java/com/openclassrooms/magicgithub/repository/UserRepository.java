@@ -14,8 +14,6 @@ public class UserRepository {
     }
 
     public List<User> getUsers() {
-
-
         return apiService.getUsers();
     }
 
@@ -24,7 +22,6 @@ public class UserRepository {
     }
 
     public void deleteUser(User user) {
-
         apiService.deleteUser(user);
     }
 }
